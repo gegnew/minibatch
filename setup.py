@@ -10,7 +10,7 @@ version = open(basedir / 'minibatch' / 'VERSION').read()
 dev_deps = ['nose', 'twine', 'flake8', 'bumpversion']
 app_deps = ['flask', 'dash']
 kafka_deps = ['kafka-python==1.4.7']
-mqtt_deps = ['paho-mqtt==1.5.0']
+mqtt_deps = ['paho-mqtt==1.6.0']
 mongo_deps = ['pymongo>=3.2.2', 'dnspython']
 omega_deps = ['omegaml[client]']
 
